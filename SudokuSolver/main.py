@@ -125,8 +125,5 @@ si = ImageTk.PhotoImage(load)
 sbutton = tk.Button(win,image = si,command = solve,bd = 0)
 sbutton.place(x = 102,y=498)
 
-# tr = tk.Entry(win,bd=0,font=("Burbank Big Cd Bk",25),validate="key", validatecommand=vcmd,width=1)
-# tr.place(x = 75,y=120,height=30)
-
 
 win.mainloop()
